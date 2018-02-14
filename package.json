@@ -1,0 +1,23 @@
+{
+  "name": "genpass",
+  "version": "1.0.0",
+  "description": "generates random password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisortizlopez/MVP-Password-generator.git"
+  },
+  "author": "Luis F, Ortiz Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisortizlopez/MVP-Password-generator/issues"
+  },
+  "homepage": "https://github.com/Luisortizlopez/MVP-Password-generator#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jquery": "^3.3.1"
+  }
+}
