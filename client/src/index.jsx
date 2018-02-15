@@ -6,9 +6,8 @@ class App extends Reacts.component {
 
 };
 
-<div>
-  <h1>Genrated Passwords</h1>
-</div>
+
+
 
 
 
