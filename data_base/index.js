@@ -1,18 +1,22 @@
-var mongo = require('mongodb');
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/mydb";
+// var mongo = require('mongodb');
+// var MongoClient = require('mongodb').MongoClient;
+// var url = "mongodb://localhost:27017/mydb";
+//
+// MongoClient.connect(url, function(err, db) {
+//   if (err) throw err;
+//   console.log("Database created!");
+//
+//   var db = db.db("mydb");
+//   dbo.createCollection("passwords", function(err, res) {
+//     if (err) throw err;
+//     console.log("Collection created!");
+//     db.close();
+//   });
+// });
+//
+// db = client.db('star-wars-quotes')
 
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  console.log("Database created!");
-  db.close();
-});
-
-
-
-
-
-/*var mysql = require('mysql');
+var mysql = require('mysql');
 
 var con = mysql.createConnection({
   host: "localhost",
@@ -44,4 +48,4 @@ var insertOne = function(randompassword, cb) {
 };
 
 module.exports.selectAll = selectAll;
-module.exports.insertOne = insertOne;*/
+module.exports.insertOne = insertOne;

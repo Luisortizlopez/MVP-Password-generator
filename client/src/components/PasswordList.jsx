@@ -4,11 +4,11 @@ import PasswordGiven from './PasswordGiven.jsx';
 
 const PasswordList = (props) => (
   <div className="passwords">
- {props.passwords.map((i) => <Password item={i}/>)}
+ {props.passwords.map((item) => <PasswordGiven item={item} key={item.id} />)}
  </div>
 
 )
 
 
 
-export default PasswordGenerated;
+export default PasswordList;

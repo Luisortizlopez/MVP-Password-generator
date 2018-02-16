@@ -3,7 +3,7 @@ import React from 'react';
 
 const PasswordGiven = (props) => (
   <div>
-    <span>{props.i.randompassword}</span>
+    <span>{this.state.randompassword}</span>
   </div>
 )
 
