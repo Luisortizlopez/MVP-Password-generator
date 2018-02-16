@@ -32,7 +32,7 @@ this.getPassword = this.getPassword.bind(this);
    // });
   }
 
-  getPassword(){ window.data
+  //getPassword(){
    // $.ajax({
    //   url: '/',
    //   method: 'GET',
@@ -44,16 +44,16 @@ this.getPassword = this.getPassword.bind(this);
    //    console.log('error', err);
    //  }
    // })
-  }
+  //}
 
   componentDidMount(){
-      this.getPassword();
+      this.addPassword();
   }
 
   render() {
     return(<div className="headingone" >
       <h1>GenPassIt!</h1>
-      <PasswordList passwords={this.state.passwords}/>
+      <PasswordList passwords={this.addPassword}/>
     </div>
   )}
 }
