@@ -10,4 +10,12 @@ body {
 
 .headingone {
   text-align: center;
+  font-family: monospace cursive;
+}
+
+.passwords {
+  padding-left: 545px;
+  list-style-position: inside;
+  color: black;
+  font-family: fantasy, monospace;
 }
